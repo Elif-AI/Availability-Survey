@@ -7,7 +7,7 @@ st.title("📊 Buluşma Günü")
 
 gunler = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"]
 
-secilen = st.multiselect("Buluşma için müsait olduğunuz günleri seçin:", gunler)
+secilen = st.multiselect("Buluşma için müsait olduğunuz günleri seçin: ", gunler)
 
 if st.button("Seçimi Kaydet"):
     if secilen:
